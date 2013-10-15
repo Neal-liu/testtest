@@ -6,21 +6,12 @@ function del_duplicate_HandlerObject() {
 del_duplicate_HandlerObject.prototype = new ZmZimletBase();
 del_duplicate_HandlerObject.prototype.constructor = del_duplicate_HandlerObject;
 
-
+dasfdasfdasfdasfasdfdasfdasfasfasfasfdasfs
 del_duplicate_HandlerObject.prototype.init = function() {
-	this.contentList = new EmailContentPrefs();
-	this.repeatedList = new EmailRepeatedPrefs();
-	this.resetView();
-	this.showRepeatMail();
+	this
 };
 del_duplicate_HandlerObject.prototype.doubleClicked = function() {	
-	this.singleClicked();
-};
-del_duplicate_HandlerObject.prototype.singleClicked = function() {	
-	this._displayDialog();
-};
-
-del_duplicate_HandlerObject.prototype._displayDialog = function() {
+	this.e._displayDialog = function() {
 
 	if (this.preferenceDialog) {
 		this.preferenceDialog.popup(); 
